@@ -1,0 +1,20 @@
+package controllers;
+
+public enum ActionType {
+	SIGN_IN, 
+	SIGN_UP,
+	PLAY,
+	SIGN_OUT,
+	UPDATE,
+	SEND_INVITATION,
+	RESPONSE_INVITATION,
+	CHANGE_STATUS,
+	REMATCH,
+	MOVE,
+	DESTROY,
+	EXIT,
+	NEW_GAME,
+	END_GAME,
+	UPDATE_RANK,
+	UPDATE_USER
+}

@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClientRun",
+            "request": "launch",
+            "mainClass": "controllers.main.ClientRun",
+            "projectName": "chinese-chess-master1_6f3f5168"
+        },
+        {
+            "type": "java",
+            "name": "ServerRun",
+            "request": "launch",
+            "mainClass": "controllers.main.ServerRun",
+            "projectName": "chinese-chess-master1_6f3f5168"
+        },
+        {
+            "type": "java",
+            "name": "MainPanel",
+            "request": "launch",
+            "mainClass": "MainPanel",
+            "projectName": "chinese-chess-master1_6f3f5168",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MainUI",
+            "request": "launch",
+            "mainClass": "MainUI",
+            "projectName": "chinese-chess-master1_6f3f5168",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "StartScreen",
+            "request": "launch",
+            "mainClass": "StartScreen",
+            "projectName": "chinese-chess-master1_6f3f5168",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "MainPanel",
+            "request": "launch",
+            "mainClass": "main.MainPanel",
+            "projectName": "chinese-chess-master1_6f3f5168",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-21/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
